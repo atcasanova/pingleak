@@ -6,10 +6,10 @@ leak data using ping :)
 ## On the receiving end
 `./receiver.sh <sender (optional)>`
 ![Image of Receiving end]
-(receiver.png)
+(https://github.com/atcasanova/pingleak/blob/main/receiver.png?raw=true)
 
 
 ## On the sending end
 `./pingleak.sh <filename> <host>`
 ![Image of sending end]
-(sender.png)
+(https://github.com/atcasanova/pingleak/blob/main/sender.png?raw=true)
