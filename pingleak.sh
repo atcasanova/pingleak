@@ -8,5 +8,5 @@ while read -n1 byte; do
 	size=$(bc <<< "obase=10;ibase=16;${byte^^}");
 	timeout 0.4 ping -c1 -s $size $host 2>&1 >/dev/null
 done
-
+echo
 echo "LeakPing done"
